@@ -1,6 +1,6 @@
 # Components used for the series
 
-==Arduino Node==
+**rduino Node**
 
 ![download](https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/assets/60571002/e68fd196-8ec6-48b8-b4f4-9b9842502c0f)
 
