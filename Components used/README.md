@@ -1,6 +1,6 @@
 # Components used for the series
 
-Arduino Node
+==Arduino Node==
 
 ![download](https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/assets/60571002/e68fd196-8ec6-48b8-b4f4-9b9842502c0f)
 
@@ -14,3 +14,4 @@ The final part is the MCP2515 module again these can be purchaed from AliExpress
 
 I would also advise you purchase some Dupont female to female cables and some 3, 5, 8 way connector adapter,
 
+----
