@@ -1,8 +1,17 @@
-# Arduino CBUS® Introduction Series
- This repository serves as a comprehensive record of my Arduino Nano exploration in conjunction with the MCP2515 module, specifically utilizing the CBUS® protocol. Developed in 2007 and registered by Dr. Mike Bolton, the CBUS® protocol is freely available for both personal and commercial use.
+# Components used for the series
 
-This protocol has found widespread adoption among MERG (Model Electronic Railway Group) members, particularly in conjunction with kits featuring PIC microcontrollers. Members have also undertaken efforts to adapt the protocol for Arduino-based modules, leveraging a variety of libraries available for these platforms.
+Arduino Node
 
-Throughout this video series, I aim to showcase key libraries and sketches relevant to this endeavor. It's important to note that I have obtained explicit permission from the creators of these libraries and sketches to feature them, with the hope of inspiring others to explore this robust solution.
+![download](https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/assets/60571002/e68fd196-8ec6-48b8-b4f4-9b9842502c0f)
 
-While not a plug-and-play system, this project demands a solid understanding of the Arduino ecosystem to unlock its full potential in controlling various elements of a model railway layout.
+![Screenshot 2023-12-10 041615](https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/assets/60571002/bab34987-935f-4620-99e1-cbbbd87b9cb0)
+
+To start of with I will be using a cheap Arduino Nano clone which can be purchased for under £2 from China direct with a 2 - 3 week lead time from Aliexpress.
+
+I will also be using the Arduino Nano sensor shield also available from Aliexpress for under £2.
+
+The final part is the MCP2515 module again these can be purchaed from AliExpress for £3.
+
+I would also advise you purchase some Dupont female to female cables and some 3, 5, 8 way connector adapter,
+
+![8 way](https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/assets/60571002/1f81bf5e-5f4f-4a92-9ee3-ec56ec182221)
