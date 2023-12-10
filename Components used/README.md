@@ -14,4 +14,3 @@ The final part is the MCP2515 module again these can be purchaed from AliExpress
 
 I would also advise you purchase some Dupont female to female cables and some 3, 5, 8 way connector adapter,
 
-![8 way](https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/assets/60571002/1f81bf5e-5f4f-4a92-9ee3-ec56ec182221)
