@@ -2,6 +2,6 @@
 
 I am using the Wiki to detail this project rather than the normal readme files.
 
-18/12/2023 Updated
+21/12/2023 Updated
 
 Added a section for the CANUSB4 MERG Kit
