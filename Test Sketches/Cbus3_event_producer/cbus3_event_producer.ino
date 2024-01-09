@@ -35,7 +35,7 @@ void loop() {
   // Wait for 30 seconds
   delay(30000);
 
-  // Send third CAN message
+  // Send third CAN message this has a different event number 
   unsigned char data3[] = {0x98, 0x00, 0x00, 0x00, 0x03};
   sendCANMessage(0b01110000010, data3, sizeof(data3));
 
