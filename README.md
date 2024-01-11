@@ -2,7 +2,7 @@
 
 I am using the Wiki to detail this project rather than the normal readme files.
 
-## Lats Updated 10/1/2024 
+## Lats Updated 11/1/2024 
 
 ### I have added part 7 to the YouTube channel 
 
