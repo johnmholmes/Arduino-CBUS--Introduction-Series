@@ -6,6 +6,4 @@ I am using the Wiki to detail this project rather than the normal readme files.
 
 I will be starting this project back up over the next few months using a different library set
 
-## This series has been continued with a seperate repository
-
-https://github.com/johnmholmes/CANmINnOUT/wiki
+The pages will be going through a series of updates in October so please come back soon to find out the progress made.
