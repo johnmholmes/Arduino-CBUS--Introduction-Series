@@ -67,6 +67,7 @@
 // Digital / Analog pin 3     SWITCH 4
 // Digital / Analog pin 4     SWITCH 5
 // Digital / Analog pin 5     SWITCH 6
+
 //////////////////////////////////////////////////////////////////////////
 
 // 6IN6OUT setup for seperate module by John Holmes only small changes to original sketch
