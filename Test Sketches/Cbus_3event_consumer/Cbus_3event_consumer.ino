@@ -1,3 +1,14 @@
+/*
+This sketch was part of my beginners journey into CBUS. While it is not the best way of coding,
+as I am not a qualified programmer, just code for fun.
+
+More details can be found in the GitHub Wiki
+
+https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/wiki
+
+This allowed me to see that the two units would work and I was able to desplay this in JMRI.
+*/
+
 #include <mcp_can.h>
 #include <SPI.h>
 
@@ -20,9 +31,8 @@ void setup() {
   Serial.begin(115200);
 
   // Initialize MCP2515
-  if (CAN.begin(MCP_ANY, CAN_125KBPS, MCP_8MHZ) == CAN_OK) {
-    CAN.setMode(MCP_NORMAL);
-
+  if (CAN.begin(CAN_125KBPS, 8000000) == CAN_OK) { 
+    
     // Attach interrupt for receiving messages
     attachInterrupt(digitalPinToInterrupt(CAN_INT_PIN), handleInterrupt, FALLING);
   } else {
@@ -61,7 +71,8 @@ void handleInterrupt() {
   byte buf[8];
 
   // Read the CAN message
-  if (CAN.readMsgBuf(&id, &len, buf) == CAN_OK) {
+  if (CAN.readMsgBuf(&len, buf) == CAN_OK) {  // Read message
+    id = CAN.getCanId();  // Retrieve the message ID
     Serial.print("Received message. ID: 0x");
     Serial.print(id, HEX);
     Serial.print("  Data: ");
