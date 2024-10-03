@@ -1,3 +1,13 @@
+/*
+This sketch was part of my beginners journey into CBUS. While it is not the best way of coding,
+as I am not a qualified programmer, just code for fun.
+
+More details can be found in the GitHub Wiki
+
+https://github.com/johnmholmes/Arduino-CBUS--Introduction-Series/wiki
+
+This allowed me to see that the two units would work and I was able to desplay this in JMRI.
+*/
 #include <mcp_can.h>
 #include <SPI.h>
 
@@ -7,9 +17,9 @@ const int CAN_INT_PIN = 2;  // Interrupt pin for MCP2515
 MCP_CAN CAN(SPI_CS_PIN);
 
 void setup() {
-  // Initialize MCP2515
-  if (CAN.begin(MCP_ANY, CAN_125KBPS, MCP_8MHZ) == CAN_OK) {
-    CAN.setMode(MCP_NORMAL);
+  // Initialize MCP2515 with 8 MHz clock frequency
+  if (CAN.begin(CAN_125KBPS, 8000000) == CAN_OK) {  // Replaced MCP_8MHZ with 8000000
+    // No need to explicitly set the operating mode to normal
   } else {
     // Handle initialization error
     while (1);
