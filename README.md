@@ -8,7 +8,7 @@ I will be starting this project back up over the next few months using a differe
 
 The pages will be going through a series of updates in October so please come back soon to find out the progress made.
 
-## Hard coding sketchs Changed
+## Hard coding sketches Changed
 
 I have updated the examples of hard coding as some changes to the libraries had broken the sketches.
 
