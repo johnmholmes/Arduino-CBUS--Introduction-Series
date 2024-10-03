@@ -1,4 +1,7 @@
 /*
+This is the failed version but is here to be updated in the near future.
+*/
+/*
 This example implements a servo controler.
 It drives 16 servos. Can be more in arduino Mega, but it just an example.
 Each servo has the parameter start,end.
