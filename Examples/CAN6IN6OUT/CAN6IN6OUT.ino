@@ -1,5 +1,5 @@
+// Originally from CANmINnOUT Modified by John Holmes
 
-// CANmINnOUT
 
 /*
   Copyright (C) 2021 Martin Da Costa
