@@ -9,7 +9,7 @@ This sketch was provided by Phil Silver and will be tested after the 15 October 
 
 //Module definitions
 #define NUM_SERVOS 1     //number of servos
-#define VAR_PER_SERVO 3  //variables per servo - servo number if using an arrsy, startangle, finish angle 
+#define VAR_PER_SERVO 3  //variables per servo - servo number if using an array, startangle, finish angle 
 
 //CBUS definitions
 #define GREEN_LED 4                  //merg green led port
